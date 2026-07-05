@@ -1,2 +1,2 @@
-# Learning.c
+# C-Programming
 Author - Aadi Jain
