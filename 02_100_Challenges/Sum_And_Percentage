@@ -1,0 +1,36 @@
+#include <stdio.h>
+int main()
+{
+ int Max1, Max2, Max3, Max4, Max5;
+ float m1, m2, m3, m4, m5;
+ float sum, percentage, total;
+
+ printf("Please,enter the maximum marks of first subject: \n");
+ scanf("%d", &Max1);
+ printf("Now, enter the marks of first subject: \n");
+ scanf("%f", &m1);
+ printf("Please,enter the maximum marks of second subject: \n");
+ scanf("%d", &Max2);
+ printf("Now, enter the marks of second subject: \n");
+ scanf("%f", &m2);
+ printf("Please,enter the maximum marks of third subject: \n");
+ scanf("%d", &Max3);
+ printf("Now, enter the marks of third subject: \n");
+ scanf("%f", &m3);
+ printf("Please,enter the maximum marks of fourth subject: \n");
+ scanf("%d", &Max4);
+ printf("Now, enter the marks of fourth subject: \n");
+ scanf("%f", &m4);
+ printf("Please,enter the maximum marks of fifth subject: \n");
+ scanf("%d", &Max5);
+ printf("Now, enter the marks of fifth subject: \n");
+ scanf("%f", &m5);
+ 
+ sum = m1 + m2 + m3 + m4 + m5;
+ printf("\nThe total marks is %f.", sum);
+
+ total = Max1 + Max2 + Max3 + Max4 + Max5;
+ percentage = (sum / total) * 100;
+ printf("\nThe percentage of total marks is %f.", percentage);
+ return 0;
+}
